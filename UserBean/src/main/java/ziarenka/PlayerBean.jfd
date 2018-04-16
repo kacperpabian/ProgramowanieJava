@@ -1,0 +1,81 @@
+JFDML JFormDesigner: "6.0.2.0.116" Java: "1.8.0_152-release" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+			name: "this"
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "device1TextField"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 280
+				"y": 135
+				"width": 180
+			} )
+			add( new FormComponent( "javax.swing.JRadioButtonMenuItem" ) {
+				name: "device21RadioButton"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 175
+				"y": 140
+				"width": 55
+				"height": 20
+			} )
+			add( new FormComponent( "javax.swing.JRadioButtonMenuItem" ) {
+				name: "device22RadioButton"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 225
+				"y": 140
+				"width": 60
+				"height": 20
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "device1Label"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 280
+				"y": 100
+				"width": 180
+				"height": 25
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "device2Label"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 165
+				"y": 100
+				"width": 115
+				"height": 30
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "device4Button"
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "device4ButtonActionPerformed", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 35
+				"y": 125
+				"height": 50
+				"width": 110
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "device3Label"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 35
+				"y": 95
+				"height": 30
+				"width": 95
+			} )
+			add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+				name: "scrollPane1"
+				add( new FormComponent( "javax.swing.JTextArea" ) {
+					name: "device4TextArea"
+					"editable": false
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 150
+				"y": 30
+				"width": 170
+				"height": 35
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 14, 40 )
+			"size": new java.awt.Dimension( 476, 200 )
+		} )
+	}
+}

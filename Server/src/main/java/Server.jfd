@@ -1,0 +1,51 @@
+JFDML JFormDesigner: "6.0.2.0.116" Java: "1.8.0_152-release" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+			name: "this"
+			add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+				name: "scrollPane1"
+				add( new FormComponent( "javax.swing.JList" ) {
+					name: "PlayerList"
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 10
+				"y": 40
+				"width": 190
+				"height": 295
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label1"
+				"text": "Lista graczy:"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 10
+				"y": 10
+				"width": 95
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "removeUserButton"
+				"text": "Usuń gracza"
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "removeUserButtonActionPerformed", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 205
+				"y": 165
+				"width": 150
+				"height": 40
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "refreshButton"
+				"text": "Odśwież liste"
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "refreshButtonActionPerformed", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 25
+				"y": 345
+				"width": 150
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 380, 415 )
+		} )
+	}
+}

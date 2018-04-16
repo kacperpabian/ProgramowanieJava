@@ -1,0 +1,94 @@
+JFDML JFormDesigner: "6.0.2.0.116" Java: "1.8.0_152-release" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+			name: "this"
+			add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+				name: "scrollPane1"
+				add( new FormComponent( "javax.swing.JList" ) {
+					name: "PlayerList"
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 5
+				"y": 30
+				"width": 165
+				"height": 335
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "ListLabel"
+				"text": "Lista Graczy:"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 5
+				"y": 10
+				"width": 145
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "startButton"
+				"text": "Start"
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "startButtonActionPerformed", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 190
+				"y": 30
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "endButton"
+				"text": "Stop"
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "endButtonActionPerformed", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 86
+				"height": 31
+				"x": 300
+				"y": 30
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "refreshButton"
+				"text": "Odśwież liste"
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "refreshButtonActionPerformed", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 165
+				"height": 31
+				"x": 10
+				"y": 370
+			} )
+			add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+				name: "scrollPane2"
+				add( new FormComponent( "javax.swing.JTextArea" ) {
+					name: "logArea"
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 185
+				"y": 170
+				"width": 295
+				"height": 190
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "LogLabel"
+				"text": "Informacje:"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 185
+				"y": 150
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "pktLabel"
+				"text": "Punkty:"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 195
+				"y": 75
+				"width": 65
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "pktTextField"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 280
+				"y": 70
+				"width": 70
+				"height": 25
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 620, 455 )
+		} )
+	}
+}

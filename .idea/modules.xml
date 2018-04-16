@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Captain/Captain.iml" filepath="$PROJECT_DIR$/Captain/Captain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Player1/Player1.iml" filepath="$PROJECT_DIR$/Player1/Player1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Player2/Player2.iml" filepath="$PROJECT_DIR$/Player2/Player2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Player3/Player3.iml" filepath="$PROJECT_DIR$/Player3/Player3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Server/Server.iml" filepath="$PROJECT_DIR$/Server/Server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UserBean/UserBean.iml" filepath="$PROJECT_DIR$/UserBean/UserBean.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="PlayerBean">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/UserBean/src/main/java/PlayerBean/PlayerBean.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
