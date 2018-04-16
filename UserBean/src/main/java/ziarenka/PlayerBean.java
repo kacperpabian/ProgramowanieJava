@@ -124,15 +124,15 @@ public class PlayerBean extends JPanel {
 
         setLayout(null);
         add(device1TextField);
-        device1TextField.setBounds(280, 135, 180, device1TextField.getPreferredSize().height);
+        device1TextField.setBounds(430, 135, 180, device1TextField.getPreferredSize().height);
         add(device21RadioButton);
-        device21RadioButton.setBounds(175, 140, 55, 20);
+        device21RadioButton.setBounds(220, 140, 55, 20);
         add(device22RadioButton);
-        device22RadioButton.setBounds(225, 140, 60, 20);
+        device22RadioButton.setBounds(315, 140, 60, 20);
         add(device1Label);
-        device1Label.setBounds(280, 100, 180, 25);
+        device1Label.setBounds(430, 100, 180, 25);
         add(device2Label);
-        device2Label.setBounds(165, 100, 115, 30);
+        device2Label.setBounds(200, 100, 195, 30);
 
         //---- device4Button ----
         device4Button.addActionListener(new ActionListener() {
@@ -143,7 +143,7 @@ public class PlayerBean extends JPanel {
         add(device4Button);
         device4Button.setBounds(35, 125, 110, 50);
         add(device3Label);
-        device3Label.setBounds(35, 95, 95, 30);
+        device3Label.setBounds(10, 95, 180, 30);
 
         //======== scrollPane1 ========
         {
@@ -153,7 +153,7 @@ public class PlayerBean extends JPanel {
             scrollPane1.setViewportView(device4TextArea);
         }
         add(scrollPane1);
-        scrollPane1.setBounds(150, 30, 170, 35);
+        scrollPane1.setBounds(240, 20, 170, 35);
 
         { // compute preferred size
             Dimension preferredSize = new Dimension();

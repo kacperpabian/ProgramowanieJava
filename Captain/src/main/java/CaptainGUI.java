@@ -159,12 +159,12 @@ public class CaptainGUI extends JFrame {
             scrollPane1.setViewportView(PlayerList);
         }
         contentPane.add(scrollPane1);
-        scrollPane1.setBounds(25, 35, 165, 335);
+        scrollPane1.setBounds(5, 30, 165, 335);
 
         //---- ListLabel ----
         ListLabel.setText("Lista Graczy:");
         contentPane.add(ListLabel);
-        ListLabel.setBounds(25, 10, 145, ListLabel.getPreferredSize().height);
+        ListLabel.setBounds(5, 10, 145, ListLabel.getPreferredSize().height);
 
         //---- startButton ----
         startButton.setText("Start");
@@ -174,7 +174,7 @@ public class CaptainGUI extends JFrame {
             }
         });
         contentPane.add(startButton);
-        startButton.setBounds(new Rectangle(new Point(250, 35), startButton.getPreferredSize()));
+        startButton.setBounds(new Rectangle(new Point(190, 30), startButton.getPreferredSize()));
 
         //---- endButton ----
         endButton.setText("Stop");
@@ -184,7 +184,7 @@ public class CaptainGUI extends JFrame {
             }
         });
         contentPane.add(endButton);
-        endButton.setBounds(410, 35, 86, 31);
+        endButton.setBounds(300, 30, 86, 31);
 
         //---- refreshButton ----
         refreshButton.setText("Od\u015bwie\u017c liste");
@@ -194,26 +194,26 @@ public class CaptainGUI extends JFrame {
             }
         });
         contentPane.add(refreshButton);
-        refreshButton.setBounds(25, 370, 165, 31);
+        refreshButton.setBounds(10, 370, 165, 31);
 
         //======== scrollPane2 ========
         {
             scrollPane2.setViewportView(logArea);
         }
         contentPane.add(scrollPane2);
-        scrollPane2.setBounds(220, 175, 295, 190);
+        scrollPane2.setBounds(185, 170, 430, 190);
 
         //---- LogLabel ----
-        LogLabel.setText("Dziennk:");
+        LogLabel.setText("Zadania:");
         contentPane.add(LogLabel);
-        LogLabel.setBounds(new Rectangle(new Point(225, 140), LogLabel.getPreferredSize()));
+        LogLabel.setBounds(new Rectangle(new Point(185, 150), LogLabel.getPreferredSize()));
 
         //---- pktLabel ----
         pktLabel.setText("Punkty:");
         contentPane.add(pktLabel);
-        pktLabel.setBounds(230, 90, 65, pktLabel.getPreferredSize().height);
+        pktLabel.setBounds(195, 75, 65, pktLabel.getPreferredSize().height);
         contentPane.add(pktTextField);
-        pktTextField.setBounds(295, 90, 70, 25);
+        pktTextField.setBounds(280, 70, 70, 25);
 
         { // compute preferred size
             Dimension preferredSize = new Dimension();

@@ -80,22 +80,22 @@ public class Player1 extends JFrame {
             }
         });
         contentPane.add(ansverButton);
-        ansverButton.setBounds(135, 210, 220, 45);
+        ansverButton.setBounds(205, 205, 220, 45);
 
         //---- playerBean1 ----
-        playerBean1.setDevice1("Pr\u0119dko\u015b\u0107");
-        playerBean1.setDevice2("Moc silnika");
+        playerBean1.setDevice1("Cebulonator 3000");
+        playerBean1.setDevice2("Wnerwienie kapitana");
         playerBean1.setDevice21Value(75);
         playerBean1.setDevice22Value(100);
-        playerBean1.setDevice3("Armata");
-        playerBean1.setDevice4("\u0141aduj");
+        playerBean1.setDevice3("Gracz 1");
+        playerBean1.setDevice4("Kopnij");
         playerBean1.setDevSet1(true);
         playerBean1.setDevSet2(true);
         playerBean1.setDevSet3(true);
         playerBean1.setDevSet4(true);
         playerBean1.setTitle("tytu\u0142");
         contentPane.add(playerBean1);
-        playerBean1.setBounds(new Rectangle(new Point(10, 5), playerBean1.getPreferredSize()));
+        playerBean1.setBounds(new Rectangle(new Point(5, 5), playerBean1.getPreferredSize()));
 
         { // compute preferred size
             Dimension preferredSize = new Dimension();

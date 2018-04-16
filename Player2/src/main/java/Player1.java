@@ -80,22 +80,22 @@ public class Player1 extends JFrame {
             }
         });
         contentPane.add(ansverButton);
-        ansverButton.setBounds(130, 215, 235, 45);
+        ansverButton.setBounds(210, 215, 235, 45);
 
         //---- playerBean1 ----
-        playerBean1.setDevice1("Pr\u0119dko\u015b\u0107");
+        playerBean1.setDevice1("Moc pendrakotarki");
         playerBean1.setDevice21Value(50);
         playerBean1.setDevice22Value(75);
-        playerBean1.setDevice3("Peryskop");
+        playerBean1.setDevice3("Dziagawypadowicz");
         playerBean1.setDevSet1(true);
         playerBean1.setDevSet2(true);
         playerBean1.setDevSet3(true);
         playerBean1.setDevSet4(true);
         playerBean1.setTitle("tytu\u0142");
-        playerBean1.setDevice2("Wynurzenie");
+        playerBean1.setDevice2("Pierdzielnatownik");
         playerBean1.setDevice4("Wysu\u0144");
         contentPane.add(playerBean1);
-        playerBean1.setBounds(10, 5, 470, 205);
+        playerBean1.setBounds(10, 5, 625, 205);
 
         { // compute preferred size
             Dimension preferredSize = new Dimension();

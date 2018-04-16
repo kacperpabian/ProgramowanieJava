@@ -1,7 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e93db2c3-a97b-4e7b-93a7-131237d6f6fc" name="Default" comment="" />
+    <list default="true" id="e93db2c3-a97b-4e7b-93a7-131237d6f6fc" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Captain/src/main/java/CaptainGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Captain/src/main/java/CaptainGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Captain/src/main/java/CaptainGUI.jfd" beforeDir="false" afterPath="$PROJECT_DIR$/Captain/src/main/java/CaptainGUI.jfd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Captain/target/classes/CaptainGUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/Captain/target/classes/CaptainGUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Player1/src/main/java/Player1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Player1/src/main/java/Player1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Player1/src/main/java/Player1.jfd" beforeDir="false" afterPath="$PROJECT_DIR$/Player1/src/main/java/Player1.jfd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Player1/target/classes/Player1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Player1/target/classes/Player1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Player2/src/main/java/Player1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Player2/src/main/java/Player1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Player2/src/main/java/Player1.jfd" beforeDir="false" afterPath="$PROJECT_DIR$/Player2/src/main/java/Player1.jfd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Player2/target/classes/Player1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Player2/target/classes/Player1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Player3/src/main/java/Player1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Player3/src/main/java/Player1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Player3/src/main/java/Player1.jfd" beforeDir="false" afterPath="$PROJECT_DIR$/Player3/src/main/java/Player1.jfd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Player3/target/classes/Player1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Player3/target/classes/Player1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserBean/src/main/java/PlayerBean/PlayerBean.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserBean/src/main/java/ziarenka/PlayerBean$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserBean/src/main/java/ziarenka/PlayerBean$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserBean/src/main/java/ziarenka/PlayerBean$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserBean/src/main/java/ziarenka/PlayerBean$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserBean/src/main/java/ziarenka/PlayerBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserBean/src/main/java/ziarenka/PlayerBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserBean/src/main/java/ziarenka/PlayerBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserBean/src/main/java/ziarenka/PlayerBean.jfd" beforeDir="false" afterPath="$PROJECT_DIR$/UserBean/src/main/java/ziarenka/PlayerBean.jfd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserBean/target/classes/ziarenka/PlayerBean$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/UserBean/target/classes/ziarenka/PlayerBean$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserBean/target/classes/ziarenka/PlayerBean$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/UserBean/target/classes/ziarenka/PlayerBean$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserBean/target/classes/ziarenka/PlayerBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/UserBean/target/classes/ziarenka/PlayerBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/intellij_forms_rt.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/intellij_forms_rt_src.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jgoodies-common-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jgoodies-common-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jgoodies-common.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jgoodies-forms-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jgoodies-forms-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jgoodies-forms.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/miglayout-core-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/miglayout-core-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/miglayout-core.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/miglayout-swing-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/miglayout-swing-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/miglayout-swing.jar" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/UserGame/target/" />
@@ -29,8 +69,42 @@
               <caret line="106" selection-start-line="106" selection-end-line="106" />
               <folding>
                 <element signature="method#initComponents#0;class#CaptainGUI#0" />
-                <marker date="1523911463954" expanded="false" signature="8241:8824" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+                <marker date="1523913007662" expanded="false" signature="8239:8822" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Player1.jfd" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Player1/src/main/java/Player1.jfd">
+          <provider selected="true" editor-type-id="JFormDesigner" />
+        </entry>
+      </file>
+      <file leaf-file-name="Player1.jfd" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Player2/src/main/java/Player1.jfd">
+          <provider selected="true" editor-type-id="JFormDesigner" />
+        </entry>
+      </file>
+      <file leaf-file-name="Player1.jfd" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Player3/src/main/java/Player1.jfd">
+          <provider selected="true" editor-type-id="JFormDesigner" />
+        </entry>
+      </file>
+      <file leaf-file-name="CaptainGUI.jfd" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Captain/src/main/java/CaptainGUI.jfd">
+          <provider selected="true" editor-type-id="JFormDesigner" />
+        </entry>
+      </file>
+      <file leaf-file-name="PlayerBean.jfd" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UserBean/src/main/java/ziarenka/PlayerBean.jfd">
+          <provider selected="true" editor-type-id="JFormDesigner" />
+        </entry>
+      </file>
+      <file leaf-file-name="PlayerObject.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Player1/src/main/java/PlayerObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -53,11 +127,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CaptainGUI.jfd" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Captain/src/main/java/CaptainGUI.jfd">
-          <provider selected="true" editor-type-id="JFormDesigner" />
-        </entry>
-      </file>
       <file leaf-file-name="CaptainObj.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Captain/src/main/java/CaptainObj.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -66,19 +135,6 @@
               <folding>
                 <element signature="method#setAnswer#0;class#CaptainObj#0" />
                 <element signature="method#setMsg#0;class#CaptainObj#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PlayerBean.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UserBean/src/main/java/ziarenka/PlayerBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1105">
-              <caret line="79" column="66" selection-start-line="79" selection-start-column="66" selection-end-line="79" selection-end-column="66" />
-              <folding>
-                <marker date="1523911942169" expanded="false" signature="3839:6973" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
-                <marker date="1523911942169" expanded="false" signature="6986:7569" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
               </folding>
             </state>
           </provider>
@@ -102,6 +158,9 @@
       <find>ansver</find>
       <find>setDe</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -145,18 +204,18 @@
         <option value="$PROJECT_DIR$/UserBean/src/main/java/PlayerBean.mf" />
         <option value="$PROJECT_DIR$/UserBean/src/main/java/PlayerBean/PlayerBean.mf" />
         <option value="$PROJECT_DIR$/Kapitan/src/main/java/CaptainGUI.java" />
-        <option value="$PROJECT_DIR$/Captain/src/main/java/CaptainGUI.jfd" />
         <option value="$PROJECT_DIR$/Server/src/main/java/Server.jfd" />
         <option value="$PROJECT_DIR$/Server/src/main/java/Server.java" />
         <option value="$PROJECT_DIR$/Player2/src/main/java/Player1.java" />
         <option value="$PROJECT_DIR$/Player3/src/main/java/Player1.java" />
         <option value="$PROJECT_DIR$/Captain/src/main/java/CaptainGUI.java" />
         <option value="$PROJECT_DIR$/Player1/src/main/java/Player1.java" />
-        <option value="$PROJECT_DIR$/UserBean/src/main/java/ziarenka/PlayerBean.jfd" />
         <option value="$PROJECT_DIR$/UserBean/src/main/java/ziarenka/PlayerBean.java" />
-        <option value="$PROJECT_DIR$/Player1/src/main/java/Player1.jfd" />
+        <option value="$PROJECT_DIR$/Captain/src/main/java/CaptainGUI.jfd" />
+        <option value="$PROJECT_DIR$/UserBean/src/main/java/ziarenka/PlayerBean.jfd" />
         <option value="$PROJECT_DIR$/Player2/src/main/java/Player1.jfd" />
         <option value="$PROJECT_DIR$/Player3/src/main/java/Player1.jfd" />
+        <option value="$PROJECT_DIR$/Player1/src/main/java/Player1.jfd" />
       </list>
     </option>
   </component>
@@ -175,6 +234,7 @@
     <option name="width" value="1612" />
     <option name="height" value="876" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <flattenPackages ProjectPane="true" />
@@ -183,7 +243,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -334,6 +393,25 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="PlayerBean" type="462c0819:PsiDirectoryNode" />
+              <item name="PlayerBean.jar" type="ab9368bb:PsiFileNode" />
+            </path>
+            <path>
+              <item name="ProgramowanieJavaLab5-6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UserBean" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="PlayerBean" type="462c0819:PsiDirectoryNode" />
+              <item name="PlayerBean.jar" type="ab9368bb:PsiFileNode" />
+              <item name="ziarenka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProgramowanieJavaLab5-6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UserBean" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ziarenka" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -345,6 +423,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -388,7 +467,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Play1Main">
+  <component name="RunManager" selected="Application.Play1Main (1)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -496,10 +575,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Play1Main (1)" />
         <item itemvalue="Application.Play1Main" />
         <item itemvalue="Application.CaptainMain" />
         <item itemvalue="Application.ServMain" />
-        <item itemvalue="Application.Play1Main (1)" />
         <item itemvalue="Application.Play1Main (2)" />
       </list>
     </recent_temporary>
@@ -529,11 +608,12 @@
       <workItem from="1523784747428" duration="9884000" />
       <workItem from="1523907110156" duration="4733000" />
       <workItem from="1523912450300" duration="174000" />
+      <workItem from="1523912747285" duration="1123000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126610000" />
+    <option name="totallyTimeSpent" value="127733000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -548,7 +628,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50208336" side_tool="true" weight="0.32930845" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.2167756" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49791667" weight="0.3272933" />
       <window_info id="Capture Tool" order="2" />
@@ -573,15 +653,15 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32879817" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info content_ui="combo" x="724" y="59" width="471" height="911" id="Project" order="0" visible="true" weight="0.20837809" />
       <window_info id="Structure" order="1" weight="0.24973147" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32879817" />
+      <window_info anchor="bottom" id="JFormDesigner Error Log" order="7" weight="0.32879817" />
       <window_info id="Image Layers" order="5" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -591,13 +671,13 @@
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49791667" visible="true" weight="0.3276644" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50208336" side_tool="true" weight="0.32930845" />
       <window_info id="Capture Tool" order="2" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.32879817" />
       <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info anchor="bottom" id="JFormDesigner Error Log" order="7" weight="0.32879817" />
+      <window_info id="Favorites" order="6" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -618,7 +698,7 @@
           <caret line="106" selection-start-line="106" selection-end-line="106" />
           <folding>
             <element signature="method#initComponents#0;class#CaptainGUI#0" />
-            <marker date="1523911463954" expanded="false" signature="8241:8824" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+            <marker date="1523913007662" expanded="false" signature="8239:8822" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
           </folding>
         </state>
       </provider>
@@ -653,15 +733,10 @@
         <state relative-caret-position="1105">
           <caret line="79" column="66" selection-start-line="79" selection-start-column="66" selection-end-line="79" selection-end-column="66" />
           <folding>
-            <marker date="1523911942169" expanded="false" signature="3839:6973" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
-            <marker date="1523911942169" expanded="false" signature="6986:7569" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+            <marker date="1523913395144" expanded="false" signature="3839:6974" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+            <marker date="1523913395144" expanded="false" signature="6987:7570" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
           </folding>
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Captain/src/main/java/CaptainGUI.jfd">
-      <provider selected="true" editor-type-id="JFormDesigner">
-        <state paletteWidth="0" propertiesWidth="0" structureHeight="0" />
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/UserBean/src/main/java/PlayerBean/PlayerBean.jar!/ziarenka/Device22ValueEditor.class" />
@@ -715,13 +790,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Player1/src/main/java/PlayerObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -815,8 +883,8 @@
           <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1523912186074" expanded="false" signature="2223:4467" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
-            <marker date="1523912186074" expanded="false" signature="4479:4773" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+            <marker date="1523913720648" expanded="false" signature="2223:4464" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+            <marker date="1523913720648" expanded="false" signature="4476:4770" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
           </folding>
         </state>
       </provider>
@@ -826,8 +894,8 @@
         <state relative-caret-position="816">
           <caret line="56" column="64" selection-start-line="56" selection-start-column="64" selection-end-line="56" selection-end-column="64" />
           <folding>
-            <marker date="1523912169379" expanded="false" signature="2223:4419" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
-            <marker date="1523912169379" expanded="true" signature="4431:4725" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+            <marker date="1523913720666" expanded="false" signature="2223:4428" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+            <marker date="1523913720666" expanded="true" signature="4440:4734" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
           </folding>
         </state>
       </provider>
@@ -843,10 +911,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-          <folding>
-            <element signature="e#197#668#0" expanded="true" />
-            <element signature="e#667#668#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -864,7 +928,6 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#initComponents#0;class#Player1#0" />
-            <marker date="1523912169305" expanded="true" signature="4370:4664" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
           </folding>
         </state>
       </provider>
@@ -874,8 +937,8 @@
         <state relative-caret-position="1105">
           <caret line="79" column="66" selection-start-line="79" selection-start-column="66" selection-end-line="79" selection-end-column="66" />
           <folding>
-            <marker date="1523911942169" expanded="false" signature="3839:6973" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
-            <marker date="1523911942169" expanded="false" signature="6986:7569" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+            <marker date="1523913395144" expanded="false" signature="3839:6974" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+            <marker date="1523913395144" expanded="false" signature="6987:7570" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
           </folding>
         </state>
       </provider>
@@ -897,7 +960,7 @@
           <caret line="106" selection-start-line="106" selection-end-line="106" />
           <folding>
             <element signature="method#initComponents#0;class#CaptainGUI#0" />
-            <marker date="1523911463954" expanded="false" signature="8241:8824" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+            <marker date="1523913007662" expanded="false" signature="8239:8822" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
           </folding>
         </state>
       </provider>
@@ -917,6 +980,25 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Captain/src/main/java/CaptainGUI.jfd">
+      <provider selected="true" editor-type-id="JFormDesigner" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserBean/src/main/java/ziarenka/PlayerBean.jfd">
+      <provider selected="true" editor-type-id="JFormDesigner" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Player1/src/main/java/PlayerObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Player3/src/main/java/Player1.jfd">
+      <provider selected="true" editor-type-id="JFormDesigner" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Player2/src/main/java/Player1.jfd">
+      <provider selected="true" editor-type-id="JFormDesigner" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Player1/src/main/java/Player1.jfd">
       <provider selected="true" editor-type-id="JFormDesigner" />
     </entry>
   </component>

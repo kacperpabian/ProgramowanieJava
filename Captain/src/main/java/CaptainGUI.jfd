@@ -60,12 +60,12 @@ new FormModel {
 			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
 				"x": 185
 				"y": 170
-				"width": 295
+				"width": 430
 				"height": 190
 			} )
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "LogLabel"
-				"text": "Informacje:"
+				"text": "Zadania:"
 			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
 				"x": 185
 				"y": 150

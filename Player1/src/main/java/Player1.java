@@ -85,8 +85,8 @@ public class Player1 extends JFrame {
         ansverButton.setBounds(115, 205, 250, 45);
 
         //---- playerBean1 ----
-        playerBean1.setDevice1("Szybkosc");
-        playerBean1.setDevice2("Procent obrotowy");
+        playerBean1.setDevice1("Motylopendownik");
+        playerBean1.setDevice2("Wykorzystanie zbigniewonap\u0119dzarki");
         playerBean1.setDevice21Value(25);
         playerBean1.setDevice22Value(50);
         playerBean1.setDevice4("W\u0142\u0105cz");
@@ -94,7 +94,7 @@ public class Player1 extends JFrame {
         playerBean1.setDevSet3(true);
         playerBean1.setDevSet4(true);
         playerBean1.setDevSet1(true);
-        playerBean1.setDevice3("Turbo");
+        playerBean1.setDevice3("Skolopendromorfowniczka");
         contentPane.add(playerBean1);
         playerBean1.setBounds(new Rectangle(new Point(5, 5), playerBean1.getPreferredSize()));
 
