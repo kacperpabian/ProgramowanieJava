@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e93db2c3-a97b-4e7b-93a7-131237d6f6fc" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Player3/src/main/java/Player1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Player3/src/main/java/Player1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/main/java/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/java/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/target/classes/Server$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Server/target/classes/Server$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/target/classes/Server$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Server/target/classes/Server$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/target/classes/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/Server/target/classes/Server.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserBean/src/main/java/ziarenka/PlayerBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserBean/src/main/java/ziarenka/PlayerBean.java" afterDir="false" />
-    </list>
+    <list default="true" id="e93db2c3-a97b-4e7b-93a7-131237d6f6fc" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/UserGame/target/" />
@@ -92,7 +84,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Player1.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Player1.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Player2/src/main/java/Player1.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="816">
@@ -100,6 +92,19 @@
               <folding>
                 <element signature="method#initComponents#0;class#Player1#0" />
                 <marker date="1523913945056" expanded="false" signature="4440:4734" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CaptainMain.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Captain/src/main/java/CaptainMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="20" selection-end-column="11" />
+              <folding>
+                <element signature="e#211#688#0" expanded="true" />
+                <element signature="e#687#688#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -117,7 +122,7 @@
       <file leaf-file-name="Play1Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Player1/src/main/java/Play1Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
+            <state relative-caret-position="136">
               <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
@@ -143,12 +148,11 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/UserBean/src/main/java/ziarenka/Device22ValueEditor.java" />
         <option value="$PROJECT_DIR$/Player1/src/main/java/PlayerGUI.java" />
         <option value="$PROJECT_DIR$/UserBean/src/main/java/PlayerBean/Player1/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/UserBean/src/main/java/ziarenka/PlayerBeanBeanInfo.java" />
@@ -199,6 +203,7 @@
         <option value="$PROJECT_DIR$/Player3/src/main/java/Player1.jfd" />
         <option value="$PROJECT_DIR$/Server/src/main/java/Server.java" />
         <option value="$PROJECT_DIR$/UserBean/src/main/java/ziarenka/PlayerBean.java" />
+        <option value="$PROJECT_DIR$/Captain/src/main/java/CaptainMain.java" />
       </list>
     </option>
   </component>
@@ -211,11 +216,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1612" />
-    <option name="height" value="876" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -226,8 +231,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -387,14 +393,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/Player1/src/main/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PZ/capgemini_lets_come_out" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -577,14 +582,15 @@
       <workItem from="1523914150740" duration="212000" />
       <workItem from="1523943888866" duration="1533000" />
       <workItem from="1524005171411" duration="19000" />
+      <workItem from="1525186875551" duration="961000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129518000" />
+    <option name="totallyTimeSpent" value="130479000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -620,17 +626,17 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50208336" side_tool="true" weight="0.32930845" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32879817" />
       <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info content_ui="combo" x="724" y="59" width="471" height="911" id="Project" order="0" visible="true" weight="0.20837809" />
       <window_info id="Structure" order="1" weight="0.24973147" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info id="Image Layers" order="5" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -638,15 +644,15 @@
       <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49791667" visible="true" weight="0.3276644" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50208336" side_tool="true" weight="0.32930845" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="JFormDesigner Error Log" order="7" weight="0.32879817" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Capture Tool" order="2" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.32879817" />
       <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="JFormDesigner Error Log" order="7" weight="0.32879817" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -683,10 +689,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="37" selection-start-line="37" selection-end-line="37" />
-          <folding>
-            <element signature="method#setAnswer#0;class#CaptainObj#0" />
-            <element signature="method#setMsg#0;class#CaptainObj#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -719,10 +721,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
-          <folding>
-            <element signature="method#setAnswer#0;class#CaptainObj#0" />
-            <element signature="method#setMsg#0;class#CaptainObj#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -791,9 +789,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -833,17 +828,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="37" selection-start-line="37" selection-end-line="37" />
-          <folding>
-            <element signature="method#setAnswer#0;class#CaptainObj#0" />
-            <element signature="method#setMsg#0;class#CaptainObj#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Captain/src/main/java/CaptainMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -955,7 +939,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Player1/src/main/java/Play1Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
+        <state relative-caret-position="136">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
@@ -989,6 +973,17 @@
           <folding>
             <element signature="method#initComponents#0;class#Player1#0" />
             <marker date="1523913945056" expanded="false" signature="4440:4734" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Captain/src/main/java/CaptainMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="20" selection-end-column="11" />
+          <folding>
+            <element signature="e#211#688#0" expanded="true" />
+            <element signature="e#687#688#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Client.Client">
+  <grid id="27dc6" binding="MainPanel" layout-manager="GridLayoutManager" row-count="5" column-count="11" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="650" height="422"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="6783f" class="javax.swing.JTextField" binding="textFieldMessage">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="7" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="5b743" class="javax.swing.JLabel" binding="labelAddress">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="60" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="IP address"/>
+        </properties>
+      </component>
+      <component id="714fb" class="javax.swing.JTextField" binding="textFieldAddress">
+        <constraints>
+          <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="ffe45" class="javax.swing.JButton" binding="buttonDisconnect">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="9" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Disconnect"/>
+        </properties>
+      </component>
+      <component id="3e98b" class="javax.swing.JTextField" binding="textFieldUsername">
+        <constraints>
+          <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="a8aa6" class="javax.swing.JLabel" binding="labelUsername">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Username"/>
+        </properties>
+      </component>
+      <scrollpane id="bb5f2">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="9" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="6dcb5" class="javax.swing.JTextArea" binding="textAreaMessages">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="9c69e" class="javax.swing.JButton" binding="buttonSend">
+        <constraints>
+          <grid row="3" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Send"/>
+        </properties>
+      </component>
+      <component id="18ac7" class="javax.swing.JButton" binding="buttonConnect">
+        <constraints>
+          <grid row="1" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Connect"/>
+        </properties>
+      </component>
+      <component id="457bd" class="javax.swing.JTextField" binding="textFieldPort">
+        <constraints>
+          <grid row="0" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="ff248" class="javax.swing.JLabel" binding="labelPort">
+        <constraints>
+          <grid row="0" column="7" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Port"/>
+        </properties>
+      </component>
+      <hspacer id="c523c">
+        <constraints>
+          <grid row="4" column="10" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="ed713">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="dbb90" class="javax.swing.JLabel" binding="labelMessage">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Message:"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
