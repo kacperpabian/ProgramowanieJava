@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="728.0" prefWidth="937.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainController">
+   <children>
+      <Label layoutX="421.0" layoutY="46.0" text="Genotyp do klasyfikacji:" />
+      <TextField fx:id="genotypeTextField" layoutX="283.0" layoutY="63.0" prefHeight="31.0" prefWidth="400.0" />
+      <Button fx:id="addToListButton" layoutX="492.0" layoutY="108.0" mnemonicParsing="false" onAction="#addToCheckList" prefHeight="31.0" prefWidth="191.0" text="Dodaj do listy" />
+      <Label layoutX="34.0" layoutY="166.0" text="Oczekujące na klasyfikacje:" />
+      <ListView fx:id="historyListView" layoutX="33.0" layoutY="185.0" prefHeight="473.0" prefWidth="400.0" />
+      <Button fx:id="classifyListButton" layoutX="34.0" layoutY="670.0" mnemonicParsing="false" onAction="#classifyAll" prefHeight="31.0" prefWidth="400.0" text="Klasyfikuj " />
+      <Label layoutX="503.0" layoutY="166.0" text="Historia klasyfikacji:" />
+      <TableView fx:id="historyTableView" layoutX="503.0" layoutY="185.0" prefHeight="473.0" prefWidth="400.0" />
+      <Button fx:id="createXmlButton" layoutX="503.0" layoutY="670.0" mnemonicParsing="false" onAction="#saveToXml" prefHeight="31.0" prefWidth="400.0" text="Zapisz do pliku XML" />
+      <Button fx:id="classifyButton" layoutX="283.0" layoutY="108.0" mnemonicParsing="false" onAction="#checkBacteria" prefHeight="31.0" prefWidth="191.0" text="Klasyfikuj" />
+   </children>
+</AnchorPane>
