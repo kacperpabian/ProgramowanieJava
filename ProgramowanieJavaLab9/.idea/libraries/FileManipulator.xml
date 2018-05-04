@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="FileManipulator">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/target/classes/FileManipulation/FileManipulator.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
