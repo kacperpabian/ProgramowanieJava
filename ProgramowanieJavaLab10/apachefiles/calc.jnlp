@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase=
+"http://localhost:8090/" 
+    href="calc.jnlp">
+    <information>
+        <title>Kalkulator</title>
+        <vendor>KP</vendor>
+    </information>
+    <resources>
+        <!-- Application Resources -->
+        <j2se version="1.7+"
+              href="http://java.sun.com/products/autodl/j2se"/>
+        <jar href="ProgramowanieJavaLab10.jar"
+            main="true" />
+
+    </resources>
+    <application-desc
+         name="Kalkulator"
+         main-class=
+           "calc.Calculator"
+         width="300"
+         height="300">
+     </application-desc>
+     <update check="background"/>
+</jnlp>
