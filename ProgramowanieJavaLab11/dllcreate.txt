@@ -1,0 +1,1 @@
+C:\gccComp\x86_64-w64-mingw32-gcc-4.8.0-win64_rubenvb\mingw64\bin\x86_64-w64-mingw32-gcc -I"C:\Program Files\Java\jdk-9.0.4\include" -I"C:\Program Files\Java\jdk-9.0.4\include\win32" -shared -o Scalar.dll Scalar.c

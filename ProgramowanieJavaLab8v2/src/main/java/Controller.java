@@ -174,15 +174,6 @@ public class Controller
                 typeChoosen=1;
                 break;
             }
-            case "unicast":
-            {
-                broadcast.setSelected(false);
-                layerbroadcast.setSelected(false);
-                chooseReceiver.setDisable(false);
-                chooseLayer.setDisable(true);
-                typeChoosen=3;
-                break;
-            }
             case "layerbroadcast":
             {
                 broadcast.setSelected(false);
@@ -190,6 +181,15 @@ public class Controller
                 chooseLayer.setDisable(false);
                 chooseReceiver.setDisable(true);
                 typeChoosen=2;
+                break;
+            }
+            case "unicast":
+            {
+                broadcast.setSelected(false);
+                layerbroadcast.setSelected(false);
+                chooseReceiver.setDisable(false);
+                chooseLayer.setDisable(true);
+                typeChoosen=3;
                 break;
             }
         }

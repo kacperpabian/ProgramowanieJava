@@ -129,11 +129,11 @@ public class LayerConnector
                 new StreamResult(sw));
         return sw.toString();
     }
-    private boolean toMe(SOAPMessage message)
+    private boolean selfMessage(SOAPMessage message)
     {
         try {
             Node sender=null;
-            boolean toMe=false;
+            boolean selfMessage=false;
             int receivers=0;
             for (Iterator<Node> i= message.getSOAPHeader().getChildElements();i.hasNext();)
             {
@@ -147,15 +147,15 @@ public class LayerConnector
                 {
                     message.getSOAPHeader().removeChild(element);
                     message.saveChanges();
-                    toMe=true;
+                    selfMessage=true;
                 }
             }
-            if(toMe)
+            if(selfMessage)
             {
                 Iterator<Node> mess=message.getSOAPBody().getChildElements();
                 controller.updateListView(sender.getNamespaceURI()+": "+mess.next().getTextContent());
             }
-            if(receivers==2&&toMe)return true;
+            if(receivers==2&&selfMessage)return true;
         } catch (SOAPException e) {
             e.printStackTrace();
         }
@@ -209,7 +209,7 @@ public class LayerConnector
             e.printStackTrace();
         }
         printCommunicate(message);
-        if(toMe(message))return;
+        if(selfMessage(message))return;
         HashMap<Character,SOAPMessage> dividedMessages=divideMessage(message);
         ArrayList<Character> myConnectors=new ArrayList<Character>();
         for(String name:writers.keySet())

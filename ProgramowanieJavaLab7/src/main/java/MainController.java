@@ -172,7 +172,7 @@ public class MainController {
             JAXBContext jc=JAXBContext.newInstance(BacteriaDataBase.class);
             Marshaller m = jc.createMarshaller();
             m.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT,true);
-            m.marshal(bacteriaDataBase, new File("History.xml"));
+            m.marshal(bacteriaDataBase, new File("Genes.xml"));
 
         } catch (JAXBException e) {
             e.printStackTrace();
