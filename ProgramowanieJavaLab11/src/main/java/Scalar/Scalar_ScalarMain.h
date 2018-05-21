@@ -10,18 +10,18 @@ extern "C" {
 /*
  * Class:     Scalar_ScalarMain
  * Method:    multi01
- * Signature: ([D[D)D
+ * Signature: ([Ljava/lang/Double;[Ljava/lang/Double;)Ljava/lang/Double;
  */
-JNIEXPORT jdouble JNICALL Java_Scalar_ScalarMain_multi01
-  (JNIEnv *, jobject, jdoubleArray, jdoubleArray);
+JNIEXPORT jobject JNICALL Java_Scalar_ScalarMain_multi01
+  (JNIEnv *, jobject, jobjectArray, jobjectArray);
 
 /*
  * Class:     Scalar_ScalarMain
  * Method:    multi02
- * Signature: ([D)D
+ * Signature: ([Ljava/lang/Double;)Ljava/lang/Double;
  */
-JNIEXPORT jdouble JNICALL Java_Scalar_ScalarMain_multi02
-  (JNIEnv *, jobject, jdoubleArray);
+JNIEXPORT jobject JNICALL Java_Scalar_ScalarMain_multi02
+  (JNIEnv *, jobject, jobjectArray);
 
 /*
  * Class:     Scalar_ScalarMain
